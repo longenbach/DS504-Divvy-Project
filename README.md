@@ -2,9 +2,11 @@
 
 ### Input Files:
 
-Pre-Processing.ipynb - make sure change root path
+Pre-Processing.ipynb - make sure change root path and pick station file for creating outputs
 
-chi_town.shp - shape file
+chi_town.shp - shape file for plotting
+
+chi_town.shx - shx file for plotting
 
 ### Output Files:
 
