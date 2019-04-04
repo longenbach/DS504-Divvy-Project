@@ -2,33 +2,33 @@
 
 ### Input Files:
 
-Pre-Processing.ipynb - must do...
+**Pre-Processing.ipynb** - must do...
 
-  1) Download Data and move to DS504-Divvy-Project folder:
+  0) Download Data and move to DS504-Divvy-Project folder:
   
   (Link)
 
-  2) Change your root path:
+  1) Change your root path:
 ```python
 root_path='/Users/SamLongenbach/Desktop/DS504/project2/DS504-Divvy-Project/'
 os.chdir(root_path)
 ```
 
-  3) Pick the station file for creating output matrices (ex. S_2013, S_2014_Q34, ... S_2017_Q34):
+  2) Pick the station file for creating output matrices (ex. S_2013, S_2014_Q34, ... S_2017_Q34):
 ```python
 STATION_DATA = S_2013.sort_values(by=['id'])
 ```
 
-chi_town.shp - Shape file for Chicago plot
+**chi_town.shp** - Shape file for Chicago plot
 
-chi_town.shx - Shx file for Chicago plot
+**chi_town.shx** - Shx file for Chicago plot
 
 ### Output Files:
 
-distance_matrix.csv - Distances btw ordered Stations
+**distance_matrix.csv**  - Distances btw ordered Stations
 
-station_locations.csv - 2013 Stations ordered by Id 
+**station_locations.csv**  - 2013 Stations ordered by Id 
 
-time_matrix.csv - Time btw ordered Stations
+**time_matrix.csv**  - Time btw ordered Stations
 
 
