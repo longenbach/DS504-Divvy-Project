@@ -2,15 +2,26 @@
 
 ### Input Files:
 
-Pre-Processing.ipynb - 1) make sure change root path and 2) pick station file for creating outputs
+Pre-Processing.ipynb - must do...
 
+  1) Download Data and move to DS504-Divvy-Project folder:
+  
+  (Link)
+
+  2) Change your root path:
+```python
 root_path='/Users/SamLongenbach/Desktop/DS504/project2/DS504-Divvy-Project/'
 os.chdir(root_path)
+```
 
+  3) Pick the station file for creating output matrices (ex. S_2013, S_2014_Q34, ... S_2017_Q34):
+```python
+STATION_DATA = S_2013.sort_values(by=['id'])
+```
 
-chi_town.shp - shape file for plotting
+chi_town.shp - Shape file for Chicago plot
 
-chi_town.shx - shx file for plotting
+chi_town.shx - Shx file for Chicago plot
 
 ### Output Files:
 
