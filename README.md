@@ -2,7 +2,11 @@
 
 ### Input Files:
 
-Pre-Processing.ipynb - make sure change root path and pick station file for creating outputs
+Pre-Processing.ipynb - 1) make sure change root path and 2) pick station file for creating outputs
+
+root_path='/Users/SamLongenbach/Desktop/DS504/project2/DS504-Divvy-Project/'
+os.chdir(root_path)
+
 
 chi_town.shp - shape file for plotting
 
