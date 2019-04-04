@@ -25,10 +25,10 @@ STATION_DATA = S_2013.sort_values(by=['id'])
 
 ### Output Files:
 
-**distance_matrix.csv**  - Distances btw ordered Stations
+**distance_matrix.csv**  - Distances btw ordered 2013 Stations
 
 **station_locations.csv**  - 2013 Stations ordered by Id 
 
-**time_matrix.csv**  - Time btw ordered Stations
+**time_matrix.csv**  - Time btw ordered 2013 Stations
 
 
