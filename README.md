@@ -6,7 +6,7 @@
 
   0) Download Data and move to DS504-Divvy-Project folder:
   
-  (Link)
+  https://drive.google.com/open?id=1cd77zrTO8QGUvvK6UasZQHjPym5Kg8SL
 
   1) Change your root path:
 ```python
